@@ -33,7 +33,8 @@ public class microsoftweb {
 	public void before_test() {
 		configmanagement = new config();
 		System.out.println("MicrosoftWebTest");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\u26494\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\u26494\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\u26494\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
 		
 		//Accessing the driverpath using the configuration properties file
 		
